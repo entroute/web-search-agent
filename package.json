@@ -1,0 +1,33 @@
+{
+  "name": "web-search-agent",
+  "version": "0.1.0",
+  "description": "Web search for AI agents via a verified x402 endpoint. No API key, pay-per-query in USDC.",
+  "keywords": [
+    "x402",
+    "web-search-api",
+    "search-api-for-ai-agents",
+    "exa-alternative",
+    "serper-alternative",
+    "brave-search-alternative",
+    "ai-agents",
+    "mcp",
+    "entroute",
+    "pay-per-request"
+  ],
+  "homepage": "https://entroute.com",
+  "bugs": "https://github.com/entroute/web-search-agent/issues",
+  "license": "MIT",
+  "author": "EntRoute",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@entroute/sdk-agent-ts": "^0.2.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}
